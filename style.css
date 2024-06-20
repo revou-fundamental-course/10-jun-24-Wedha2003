@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#c10a0a;
+}
+
+
+.container {
+    background-color: #f4f6f5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.input-group, .button-group, .formula {
+    margin-bottom: 15px;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #2ebdbb;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[readonly] {
+    background-color: #f2f2f2;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #4e524e;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.button-group button {
+    margin-right: 20px;
+    font-size: 16px;
+}
